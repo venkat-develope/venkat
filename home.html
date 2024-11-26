@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,*::before,*::after{
+            box-sizing: border-box;
+        }
+        body{
+            background-image: linear-gradient(to Right,#1A1A19,#789DBC);
+            flex-wrap: wrap;
+        }
+        .header{
+            width: 100%;
+            height: 250px;
+            background-color: black;
+        }
+        .logo{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-family: fantasy;
+            font-size: 200px;
+            font-weight: 100;
+        }
+        .navbar{
+            width: 100%;
+            height: 50px;
+        }
+        .search{
+            display: flex;
+            justify-content:end ;
+            padding-top: 10px;
+        }
+        .nav{
+            display: flex;
+            color: brown;
+            justify-content: end;
+            column-gap: 20px;
+            font-size: 30px; 
+        }
+        a{
+            text-decoration: none;
+            font-size: 30x;
+            color: aqua;
+        }
+        a:hover{ 
+            background-color: blue;
+            border-radius: 10px;
+            padding: 5px;
+            color: red;
+        }
+        .content{
+            width: 100%;
+            height: auto;
+        }
+        .mg{
+            width: 8%;
+            margin-block-end: 0px;
+        }
+        .mg1{
+            width: 70%;
+            margin-inline-end: auto;
+        }
+        p{
+            margin-left: 10px;
+            margin: auto;
+            margin-top: -20px;
+            color: beige;
+        }
+        button:hover{ 
+            background-color: chartreuse;
+            border: none;
+        }
+        img:hover{ 
+            transform: scale(1.1);
+        }
+        .card{
+            width: 100%;
+            height: 180px;
+            margin-left: 5px;
+            margin-inline-end: 5px;
+            display: flex;
+        }
+        .article{
+            width: 100%;
+            height: auto;
+            /* display: flex; */
+            float: right;
+         background-color: pink;
+        }
+        .footer{
+            width: 100%;
+            height: 200px;
+            display: flex;
+            column-gap: 40px;
+        }
+        p{
+            padding-top:20px;
+            text-align: auto;
+        }
+        .article a{
+            margin-inline-end: 20px;
+            margin-inline-end: 15px;
+            margin-left: 5px;
+        }
+        .img{
+            width: 150px;
+            margin-block-end: 8px;
+            border: black solid;
+        }
+        .loogo{
+            margin-left: 30%;
+            display: flex;
+            /* flex-direction: row; */
+            /* justify-content: center; */
+            font-family: fantasy;
+            font-size: 50px;
+            font-weight: 500;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="logo 1.jpg" alt="image not found" width="20%" height="250px">
+            <span style="color: red;">E</span>
+            <span style="color: red;">l</span>
+            <span style="color: red;">e</span>
+            <span style="color: red;">c</span>
+            <span style="color: red;">t</span>
+            <span style="color: red;">r</span>
+            <span style="color: red;">i</span>
+            <span style="color: red;">c</span><br>
+            <span style="color: red;">M</span>
+            <span style="color: red;">a</span>
+            <span style="color: red;">r</span>
+            <span style="color: red;">t</span>
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="search">
+            <input type="text" placeholder="search for the product">
+            <button><i>&#128269</i></button>
+            <button><i>&#128247</i></button>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="nav">
+                <a href="">home</a>
+                <a href="">categories</a>
+                <a href="">cart</a>
+                <a href="">account</a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="select">
+            <marquee behavior="" direction="left">
+                <img src="0w led bulb.jpeg" alt="" class="mg" height="180px" width="100%">
+                <img src="led tube light.jpeg" alt="" class="mg" height="180px" width="100%">
+                <img src="1 way switch.jpeg" alt="" class="mg" height="180px" width="100%">
+                <img src="plug socket.jpeg" alt="" class="mg" height="180px" width="100%">
+                <img src="four way cuppling.jpeg" alt="" class="mg" height="180px" width="100%">
+                <img src="15in tb.jpeg" alt="" class="mg" height="180px" width="100%">
+                <img src="CB anchor.jpeg" alt="" class="mg" height="180px" width="100%">
+                <img src="wire coil.jpeg" alt="" class="mg" height="180px" width="100%">
+                <img src="red tape.jpeg" alt="" class="mg" height="180px" width="100%">
+                <img src="ext box.jpeg" alt="" class="mg" height="180px" width="100%">
+                <img src="CF anchor.jpeg" alt="" class="mg" height="180px" width="100%">
+                <img src="modular board.jpeg" alt="" class="mg" height="180px" width="100%">
+            </marquee>
+       </div>
+    </div>
+
+    <div class="article">
+        <a href="bulb.html"><img class="img" src="0w led bulb.jpeg" alt="" height="300px" width="200px"></a>
+        <a href="tube_light.html"><img class="img" src="led tube light.jpeg" alt="" height="300px" width="200px"></a>
+        <a href="switch.html"><img class="img" src="1 way switch.jpeg" alt="" height="300px" width="200px"></a>
+        <a href="socket.html"><img class="img" src="plug socket.jpeg" alt="" height="300px" width="200px"></a>
+        <a href="pvc.html"><img class="img" src="four way cuppling.jpeg" alt="" height="300px" width="200px"></a>
+        <a href="table_fan.html"><img class="img" src="15in tb.jpeg" alt="" height="300px" width="200px"></a>
+        <a href="calling_bell.html"><img class="img" src="CB anchor.jpeg" alt="" height="300px" width="200px"></a>
+        <a href="wire.html"><img class="img" src="wire coil.jpeg" alt="" height="300px" width="200px"></a>
+        <a href="safety_tools.html"><img class="img" src="red tape.jpeg" alt="" height="300px" width="200px"></a>
+        <a href="extension_box.html"><img class="img" src="ext box.jpeg" alt="" height="300px" width="200px"></a>
+        <a href="ceeling_fan.html"><img class="img" src="CF anchor.jpeg" alt="" height="300px" width="200px"></a>
+        <a href="switch_board.html"><img class="img" src="modular board.jpeg" alt="" height="300px" width="200px"></a>
+
+        <!-- <div><img src="0w led bulb.jpeg" alt="" class="mg1" height="180px" width="150%"> <P>LED <br>price:150 <br><button>BUY</button></P></div>
+        <div><img src="led tube light.jpeg" alt="" class="mg1" height="180px" width="150%"> <p>tube <br>price:100 <br><button>BUY</button></p></div>
+        <div><img src="1 way switch.jpeg" alt="" class="mg1" height="180px" width="150%"><p>switch<br>price:100 <br><button>BUY</button></p></div>
+        <div><img src="plug socket.jpeg" alt="" class="mg1" height="180px" width="150%"><p>socket <br>price:100 <br><button>BUY</button></p></div>
+        <div><img src="four way cuppling.jpeg" alt="" class="mg1" height="180px" width="150%"><p>cuppling <br>price:100 <br><button>BUY</button></p></div>
+        <div><img src="15in tb.jpeg" alt="" class="mg1" height="180px" width="150%"><p>tube light <br>price:100 <br><button>BUY</button></p></div>
+        <div><img src="CB anchor.jpeg" alt="" class="mg1" height="180px" width="150%"><p>calling bell <br>price:100 <br><button>BUY</button></p></div>
+        <div><img src="wire coil.jpeg" alt="" class="mg1" height="180px" width="150%"><p>wire<br>price:100 <br><button>BUY</button></p></div>
+        <div><img src="red tape.jpeg" alt="" class="mg1" height="180px" width="150%"><p>tape <br>price:100 <br><button>BUY</button></p></div>
+        <div><img src="ext box.jpeg" alt="" class="mg1" height="180px" width="150%"><p>extention box <br>price:100 <br><button>BUY</button></p></div>
+        <div><img src="CF anchor.jpeg" alt="" class="mg1" height="180px" width="150%"><p>cealing fan<br>price:100 <br><button>BUY</button></p></div>
+        <div><img src="modular board.jpeg" alt="" class="mg1" height="180px" width="150%"><p>modular sb<br>price:100 <br><button>BUY</button></p></div> -->
+
+    </div><br>
+    <div class="footer">
+        <div>
+            <h3>Get to know us</h3>
+            <a href="contact.html">Contact us</a><br>
+            <a href="">About us</a><br>
+            <a href="">Learn</a><br>
+            <a href="">Partner with us</a><br>
+        </div>
+        <div class="div1">
+            <h3>Social contact </h3>
+            <a href="">Facebook</a><br>
+            <a href="">Whatsapp</a><br>
+            <a href="">Twiter</a><br>
+        </div>
+        <div class="div2">
+            <h3>Policy</h3>
+            <a href="">Trems & conditions</a><br>
+            <a href="">Return policy</a><br>
+            <a href="">Privacy policy</a><br>
+        </div>
+        <div class="loogo">
+            <img src="logo 1.jpg" alt="image not found" width="80%" height="200px">
+            <P>Electric <br>mart</P>
+            <!-- <span style="color: red;">E</span>
+            <span style="color: red;">l</span>
+            <span style="color: red;">e</span>
+            <span style="color: red;">c</span>
+            <span style="color: red;">t</span>
+            <span style="color: red;">r</span>
+            <span style="color: red;">i</span>
+            <span style="color: red;">c</span>
+            <br>
+            <span style="color: red;">M</span>
+            <span style="color: red;">a</span>
+            <span style="color: red;">r</span>
+            <span style="color: red;">t</span> -->
+        </div>
+    </div>
+</body>
+</html>
